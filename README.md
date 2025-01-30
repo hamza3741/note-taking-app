@@ -14,20 +14,20 @@ The Note-Taking App is a Flutter-based application that allows users to create, 
 lib/ <br>
 ├── main.dart                  # Entry point for the app. <br>
 ├── models/ <br>
-│   └── note_model.dart        # Contains the Note model. <br>
+│    └── note_model.dart        # Contains the Note model. <br>
 ├── view/ <br>
-│   ├── login_screen.dart      # Login screen for authentication. <br>
-│   ├── signup_screen.dart     # Signup screen for new users. <br>
-│   ├── home_screen.dart       # Home screen where notes are displayed. <br>
-│   ├── add_edit_note_screen.dart  # Screen for adding and editing notes. <br>
-│   └── widgets/ <br>
-│       └── note_tile.dart     # Widget to display individual note details. <br>
+│    ├── login_screen.dart      # Login screen for authentication. <br>
+│    ├── signup_screen.dart     # Signup screen for new users. <br>
+│    ├── home_screen.dart       # Home screen where notes are displayed. <br>
+│    ├── add_edit_note_screen.dart  # Screen for adding and editing notes. <br>
+│    └── widgets/ <br>
+│           └── note_tile.dart     # Widget to display individual note details. <br>
 ├── viewmodel/ <br>
-│   ├── auth_viewmodel.dart    # Logic for handling authentication. <br>
-│   └── notes_viewmodel.dart   # Logic for handling notes (CRUD operations). <br>
+│      ├── auth_viewmodel.dart    # Logic for handling authentication. <br>
+│      └── notes_viewmodel.dart   # Logic for handling notes (CRUD operations). <br>
 └── firebase/ <br>
-    ├── firestore_service.dart # Service for interacting with Firestore. <br>
-    └── auth_service.dart # Service for Firebase Authentication. <br>
+       ├── firestore_service.dart # Service for interacting with Firestore. <br>
+       └── auth_service.dart # Service for Firebase Authentication. <br>
 
 
 # Firestore Rules:
